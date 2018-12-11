@@ -1,0 +1,59 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Video Link",
+            "name": "videoLink",
+            "kind": "Measure",
+            "description": "Video link if have in data source put it here else put dummy data."
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                { "videoLink": { "max": 1 } }
+            ],
+            "single": {
+                "role": "videoLink"
+            }
+        }
+    ],
+    "objects": {
+        "videoPlayerSettings": {
+            "displayName": "Video Player Settings",
+            "properties": {
+                "videoLink": {
+                    "displayName": "Video link",
+                    "type": {
+                        "text": true
+                    },
+                    "suppressFormatPainterCopy": true
+                },
+                "showControls": {
+                    "displayName": "Show video controls",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "autoPlayVideo": {
+                    "displayName": "Auto play video",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "loopVideo": {
+                    "displayName": "Loop video",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "muteVideo": {
+                    "displayName": "Mute video",
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        }
+    },
+    "suppressDefaultTitle": true
+}

@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "videoPlayer",
+    "displayName": "Video Player",
+    "guid": "videoPlayer324D328C4BBE42C188561DBED7E584C1",
+    "visualClassName": "VideoPlayerVisual",
+    "version": "1.0.0",
+    "description": "Video player for Power BI Reports",
+    "supportUrl": "bhaveshjadav.in",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "2.2.0",
+  "author": {
+        "name": "Bhavesh Jadav",
+        "email": "bhavesh.jadav@outlook.com"
+    },
+  "assets": {
+        "icon": "assets/icon.png"
+    },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
