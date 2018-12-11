@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Bhavesh Jadav","email":"bhavesh.jadav@outlook.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/videoPlayer324D328C4BBE42C188561DBED7E584C1.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"videoPlayer","displayName":"Video Player","guid":"videoPlayer324D328C4BBE42C188561DBED7E584C1","visualClassName":"VideoPlayerVisual","version":"1.0.0","description":"Video player for Power BI Reports","supportUrl":"bhaveshjadav.in","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
